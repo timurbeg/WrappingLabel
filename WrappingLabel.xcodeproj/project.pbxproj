@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3910F2E413811F6200A8E326 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3910F2E213811F6200A8E326 /* 1.jpeg */; };
+		3910F2E513811F6200A8E326 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3910F2E313811F6200A8E326 /* 3.jpeg */; };
+		397734CE137EA00C0078096B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397734CD137EA00C0078096B /* UIKit.framework */; };
+		397734D0137EA00C0078096B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397734CF137EA00C0078096B /* Foundation.framework */; };
+		397734D2137EA00C0078096B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397734D1137EA00C0078096B /* CoreGraphics.framework */; };
+		397734D8137EA00C0078096B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 397734D6137EA00C0078096B /* InfoPlist.strings */; };
+		397734DB137EA00C0078096B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397734DA137EA00C0078096B /* main.m */; };
+		397734DE137EA00C0078096B /* WrappingLabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397734DD137EA00C0078096B /* WrappingLabelAppDelegate.m */; };
+		397734E1137EA00C0078096B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397734DF137EA00C0078096B /* MainWindow.xib */; };
+		397734E4137EA00C0078096B /* WrappingLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397734E3137EA00C0078096B /* WrappingLabelViewController.m */; };
+		397734E7137EA00C0078096B /* WrappingLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397734E5137EA00C0078096B /* WrappingLabelViewController.xib */; };
+		397734EF137EA0CF0078096B /* TextWrappedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 397734EE137EA0CF0078096B /* TextWrappedImageView.m */; };
+		397734F8137EA1930078096B /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 397734F4137EA1930078096B /* 4.jpeg */; };
+		39C75572138142690038EDB1 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39C75571138142690038EDB1 /* 2.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3910F2E213811F6200A8E326 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = images/1.jpeg; sourceTree = "<group>"; };
+		3910F2E313811F6200A8E326 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = images/3.jpeg; sourceTree = "<group>"; };
+		397734C9137EA00C0078096B /* WrappingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrappingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397734CD137EA00C0078096B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		397734CF137EA00C0078096B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		397734D1137EA00C0078096B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		397734D5137EA00C0078096B /* WrappingLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WrappingLabel-Info.plist"; sourceTree = "<group>"; };
+		397734D7137EA00C0078096B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		397734D9137EA00C0078096B /* WrappingLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WrappingLabel-Prefix.pch"; sourceTree = "<group>"; };
+		397734DA137EA00C0078096B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		397734DC137EA00C0078096B /* WrappingLabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrappingLabelAppDelegate.h; sourceTree = "<group>"; };
+		397734DD137EA00C0078096B /* WrappingLabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrappingLabelAppDelegate.m; sourceTree = "<group>"; };
+		397734E0137EA00C0078096B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		397734E2137EA00C0078096B /* WrappingLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrappingLabelViewController.h; sourceTree = "<group>"; };
+		397734E3137EA00C0078096B /* WrappingLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrappingLabelViewController.m; sourceTree = "<group>"; };
+		397734E6137EA00C0078096B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WrappingLabelViewController.xib; sourceTree = "<group>"; };
+		397734ED137EA0CE0078096B /* TextWrappedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextWrappedImageView.h; sourceTree = "<group>"; };
+		397734EE137EA0CF0078096B /* TextWrappedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextWrappedImageView.m; sourceTree = "<group>"; };
+		397734F4137EA1930078096B /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = images/4.jpeg; sourceTree = "<group>"; };
+		39C75571138142690038EDB1 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = images/2.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397734C6137EA00C0078096B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397734CE137EA00C0078096B /* UIKit.framework in Frameworks */,
+				397734D0137EA00C0078096B /* Foundation.framework in Frameworks */,
+				397734D2137EA00C0078096B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		397734BE137EA00C0078096B = {
+			isa = PBXGroup;
+			children = (
+				397734D3137EA00C0078096B /* WrappingLabel */,
+				397734CC137EA00C0078096B /* Frameworks */,
+				397734CA137EA00C0078096B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		397734CA137EA00C0078096B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397734C9137EA00C0078096B /* WrappingLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		397734CC137EA00C0078096B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				397734CD137EA00C0078096B /* UIKit.framework */,
+				397734CF137EA00C0078096B /* Foundation.framework */,
+				397734D1137EA00C0078096B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		397734D3137EA00C0078096B /* WrappingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				397734DF137EA00C0078096B /* MainWindow.xib */,
+				397734E5137EA00C0078096B /* WrappingLabelViewController.xib */,
+				397734DC137EA00C0078096B /* WrappingLabelAppDelegate.h */,
+				397734DD137EA00C0078096B /* WrappingLabelAppDelegate.m */,
+				397734E2137EA00C0078096B /* WrappingLabelViewController.h */,
+				397734E3137EA00C0078096B /* WrappingLabelViewController.m */,
+				397734ED137EA0CE0078096B /* TextWrappedImageView.h */,
+				397734EE137EA0CF0078096B /* TextWrappedImageView.m */,
+				397734D4137EA00C0078096B /* Supporting Files */,
+			);
+			path = WrappingLabel;
+			sourceTree = "<group>";
+		};
+		397734D4137EA00C0078096B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				397734F0137EA1890078096B /* images */,
+				397734D5137EA00C0078096B /* WrappingLabel-Info.plist */,
+				397734D6137EA00C0078096B /* InfoPlist.strings */,
+				397734D9137EA00C0078096B /* WrappingLabel-Prefix.pch */,
+				397734DA137EA00C0078096B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397734F0137EA1890078096B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3910F2E213811F6200A8E326 /* 1.jpeg */,
+				39C75571138142690038EDB1 /* 2.jpeg */,
+				3910F2E313811F6200A8E326 /* 3.jpeg */,
+				397734F4137EA1930078096B /* 4.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		397734C8137EA00C0078096B /* WrappingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397734EA137EA00C0078096B /* Build configuration list for PBXNativeTarget "WrappingLabel" */;
+			buildPhases = (
+				397734C5137EA00C0078096B /* Sources */,
+				397734C6137EA00C0078096B /* Frameworks */,
+				397734C7137EA00C0078096B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WrappingLabel;
+			productName = WrappingLabel;
+			productReference = 397734C9137EA00C0078096B /* WrappingLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		397734C0137EA00C0078096B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = FinnetLimimed;
+			};
+			buildConfigurationList = 397734C3137EA00C0078096B /* Build configuration list for PBXProject "WrappingLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 397734BE137EA00C0078096B;
+			productRefGroup = 397734CA137EA00C0078096B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397734C8137EA00C0078096B /* WrappingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		397734C7137EA00C0078096B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397734D8137EA00C0078096B /* InfoPlist.strings in Resources */,
+				397734E1137EA00C0078096B /* MainWindow.xib in Resources */,
+				397734E7137EA00C0078096B /* WrappingLabelViewController.xib in Resources */,
+				397734F8137EA1930078096B /* 4.jpeg in Resources */,
+				3910F2E413811F6200A8E326 /* 1.jpeg in Resources */,
+				3910F2E513811F6200A8E326 /* 3.jpeg in Resources */,
+				39C75572138142690038EDB1 /* 2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397734C5137EA00C0078096B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397734DB137EA00C0078096B /* main.m in Sources */,
+				397734DE137EA00C0078096B /* WrappingLabelAppDelegate.m in Sources */,
+				397734E4137EA00C0078096B /* WrappingLabelViewController.m in Sources */,
+				397734EF137EA0CF0078096B /* TextWrappedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		397734D6137EA00C0078096B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397734D7137EA00C0078096B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		397734DF137EA00C0078096B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397734E0137EA00C0078096B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		397734E5137EA00C0078096B /* WrappingLabelViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397734E6137EA00C0078096B /* en */,
+			);
+			name = WrappingLabelViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		397734E8137EA00C0078096B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		397734E9137EA00C0078096B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		397734EB137EA00C0078096B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WrappingLabel/WrappingLabel-Prefix.pch";
+				INFOPLIST_FILE = "WrappingLabel/WrappingLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		397734EC137EA00C0078096B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WrappingLabel/WrappingLabel-Prefix.pch";
+				INFOPLIST_FILE = "WrappingLabel/WrappingLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397734C3137EA00C0078096B /* Build configuration list for PBXProject "WrappingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397734E8137EA00C0078096B /* Debug */,
+				397734E9137EA00C0078096B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397734EA137EA00C0078096B /* Build configuration list for PBXNativeTarget "WrappingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397734EB137EA00C0078096B /* Debug */,
+				397734EC137EA00C0078096B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 397734C0137EA00C0078096B /* Project object */;
+}
