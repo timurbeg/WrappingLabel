@@ -1,0 +1,5 @@
+WrappingLabel
+
+The control contains of UIImageView and UILabel objects.
+The main goal of this control is provide a text wrapped image view.
+This is the first version, so there are may be some bugs and inconveniences  in using it.
