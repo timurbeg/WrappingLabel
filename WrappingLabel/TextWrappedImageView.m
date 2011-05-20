@@ -191,6 +191,13 @@
         return str;
     }
     
+    if (1 / choppedPercent > 1.2) {
+        
+        choppedPercent = (availableSize.height * 1.2) / measured.height;
+        int endIndex = choppedPercent * [str length];
+        str = [str substringToIndex:endIndex];
+    }
+    
     // rewind to the beginning of the word in case we are in the middle of one
     do {
         str = [self rewindOneWord:str];
